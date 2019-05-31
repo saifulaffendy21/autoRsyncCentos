@@ -1,3 +1,3 @@
  #Please install RSYNC and SSHPASS.
  
- sshpass -p "<your password>" rsync -azP --delete root@<your IP address>:/root/rsync_test/ /root/rsync_test/
+ sshpass -p "<your password>" rsync -azP root@<your IP address>:/root/rsync_test/ /root/rsync_test/
